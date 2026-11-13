@@ -1,0 +1,30 @@
+{
+  "name": "vn-photos",
+  "version": "0.1.0",
+  "private": true,
+  "description": "r/place phiên bản ảnh — bàn cờ cộng đồng nơi mỗi người dán một tấm ảnh.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "smoke": "tsx scripts/smoke.ts",
+    "ui:test": "node scripts/interaction-test.mjs",
+    "shots": "node scripts/screenshot.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.0",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "puppeteer-core": "^25.17.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}
